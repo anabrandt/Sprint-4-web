@@ -8,7 +8,7 @@
 
 ```bash
 Ana Carolina - Rm 552283
-Sofia Sprocatti - 
+Sofia Sprocatti - Rm 99208
 Felipe Cerezuella - 
 Vinicius Minei - 
 Caique Almeida - 
