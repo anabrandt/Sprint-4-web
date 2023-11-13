@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import './Cabecalho.scss'
+import './cabecalho.scss'
 
 
 export default function Cabecalho() {

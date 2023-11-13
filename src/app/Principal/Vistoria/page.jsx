@@ -1,5 +1,5 @@
 import Link from "next/link";
-import './Page.scss'
+import './page.scss'
 
 export default function Vistoria() {
     return (

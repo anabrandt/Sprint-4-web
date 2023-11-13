@@ -1,4 +1,4 @@
-import './Page.scss'
+import './page.scss'
 
 export default function Integrantes(){
     return(
