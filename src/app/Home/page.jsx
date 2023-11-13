@@ -1,6 +1,5 @@
 import Image from "next/image";
-import '<div className="" />
-<p></p>age.scss'
+import './page.scss'
 
 
 export default function Home() {
