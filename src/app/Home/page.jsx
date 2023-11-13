@@ -30,7 +30,6 @@ export default function Home() {
                 </div>
             </div>
 
-
             <section className="section__benef">
                 <div className="beneficios__vistoria">
                     <div className="container_ajuda">
