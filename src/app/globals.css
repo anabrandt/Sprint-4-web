@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: white;
+  margin: 10px;
+  padding: 70px;
+
+
+  & a {
+    color: black;
+    font-size: 1.0em;
+    padding: 20px;
+  }
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h1.paragrafo__vistoria {
+  padding: 7px;
+  margin-top: 10px;
+}
+
+
+div.text2 {
+  flex: 1;
+  padding: 20px;
+}
+
+p.txt__vistoria {
+  text-align: right;
+}
+
+
+div.container__ajuda {
+  background-color: #F7F7F7;
+  padding: 7px;
+}
+
+h2.titulo__ajuda {
+  text-align: center;
+}
+
+p.paragrafo__ajuda {
+  margin: 10px;
+  padding: 10px;
+}
+
+h2.titulo__beneficios {
+  text-align: center;
+}
+
+div.beneficios__vistoria {
+  display: flex;
+  align-items: center;
+  /* Centraliza os elementos horizontalmente */
+  text-align: center;
+  /* Centraliza o texto horizontalmente */
+  gap: 20px;
+  /* Espaço vertical entre os elementos */
+}
+
+.Seguranca,
+.Pode-ser-feita,
+.Mais-rapido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centraliza os elementos horizontalmente */
+  text-align: center;
+  /* Centraliza o texto horizontalmente */
+}
+
+
+
+img.sg_img1 {
+  max-width: 100px;
+  /* Ajuste o tamanho das imagens conforme necessário */
+  height: auto;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+/* Estilização para os campos de entrada */
+.campo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.campo label {
+  margin-bottom: 5px;
+}
+
+.campo input[type="email"],
+.campo input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.botao-entrar {
+  background-color: #0046C0;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.botao-entrar:hover {
+  background-color: #003ea6;
+}
+
+
+
+img.imagem__vistoria {
+  max-width: 300px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+h1.imagem__vistoria {
+  margin-top: 20px;
+}
+
+
+/* Estilize o contêiner principal */
+section {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Estilize as divs que contêm as informações das bicicletas */
+.vistoria__bike1,
+.vistoria__bike2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+/* Estilize as imagens */
+img.vistoria__bike1,
+img.vistoria__bike2 {
+  max-width: 200px;
+  /* Defina a largura máxima das imagens */
+  height: auto;
+  width: 200px;
+  height: 200px;
+}
+
+/* Estilize os títulos (h4) */
+h4.vistoria__bike1,
+h4.vistoria__bike2 {
+  text-align: right;
+}
+
+/* Estilize os parágrafos (p) */
+.vistoria__bike1 p,
+.vistoria__bike2 p {
+  text-align: right;
+}
+
+img.scanbike {
+  height: auto;
+  width: 200px;
+  height: 200px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #346BCD;
+  font-weight: bold;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+input {
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-size: 1em;
+
+}
+
+button {
+  border-radius: 9px;
+  font-family: sans-serif;
+  font-size: 1em;
+  background: #0046C0;
+  border: none;
+  color: #F7F7F7;
+
+}
+
+.campo {
+  margin-bottom: 1em;
+  margin-bottom: 0.2em;
+  display: block;
+}
+
+/* estilização da margem do botao */
+.botao {
+  font-size: 1.2em;
+  border-radius: 20px;
+  background: #0046C0;
+  margin-bottom: 1em;
+  color: #0046C0;
+  padding: 0.5em 5em;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
+/* RESPONSIVIDADE  */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: row;
+    height: auto;
+  }
+
+  nav a {
+    padding: 10px;
+  }
+
+  main {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  form {
+    max-width: 90vw;
+  }
+
+  .botao {
+    font-size: 1em;
+    top: 85%;
+    /* Ajuste a posição do botão para telas menores */
+  }
+}
+
+/* tablets e desktops */
+@media screen and (min-width: 769px) {
+  nav {
+    height: 10vh;
+  }
+
+  nav a {
+    padding: 20px;
+  }
+
+  main {
+    height: 87vh;
+  }
+
+  h1 {
+    font-size: 3.2em;
+  }
+
+  footer {
+    height: 15vh;
+  }
+
+  form {
+    max-width: 40vw;
+  }
+
+  .botao {
+    font-size: 1.2em;
+    top: 90%;
+  }
+}
