@@ -10,7 +10,7 @@
 Ana Carolina - Rm 552283
 Sofia Sprocatti - Rm 99208
 Felipe Cerezuella - 
-Vinicius Minei - 
+Vinicius Minei - Rm 98486
 Caique Almeida - 
 ```
 
